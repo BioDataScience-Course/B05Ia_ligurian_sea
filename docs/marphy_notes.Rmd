@@ -1,9 +1,13 @@
 ---
-title: "Transect entre Nice et Calvi"
-author: "___"
-date: "___/___/___"
+title: "..."
+author: "..."
+date: ".../.../..."
 output: html_document
 ---
+
+<!--- Consignes
+Ce document doit être cohérent et lisible dans sa version compilée (html). Assurez vous qu'il est compilable.
+--->
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -26,7 +30,6 @@ marphy <- read("marphy", package = "pastecs")
 ```
 
 
-
 <!--- Consignes
 Proposez un tableau et deux graphiques pour explorer ce nouveau tableau de données. Décrivez votre tableau et vos graphiques en maximum 3 phrases.
 --->
@@ -47,10 +50,10 @@ Proposez un tableau et deux graphiques pour explorer ce nouveau tableau de donn�
 Proposez entre 4 et 6 dendrogrammes. Vous avez la possibilité de travailler
 - sur la standardisation des données
 - sur le choix de l'indice de distance
-- sur le choix de la méthode de lien employé pour réaliser le dendrogramme 
-- sur les regroupements en coupant l'arbre.
+- sur le choix de la méthode de lien employée pour réaliser le dendrogramme 
+- sur les regroupements en coupant l'arbre à la hauteur souhaitée.
 
-Chaque stratégie employée pour réaliser vos dendrogrammes doit être explicité. La description de votre dendrogramme doit permettre de comprendre les choix que vous avez pris.
+Chaque stratégie employée pour réaliser vos dendrogrammes doit être explicitée. La description de votre dendrogramme doit permettre de comprendre les choix que vous avez pris.
 
 Vos descriptions ne doivent pas dépasser 5-7 phrases.
 --->

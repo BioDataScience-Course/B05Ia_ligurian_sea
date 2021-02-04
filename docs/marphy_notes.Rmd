@@ -1,0 +1,90 @@
+---
+title: "Transect entre Nice et Calvi"
+author: "___"
+date: "___/___/___"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+SciViews::R
+library(pastecs)
+```
+
+# Introduction
+
+<!--- Consignes
+Proposez une courte introduction de 4-5 phrases sur le jeu de données marphy du package pastecs.
+
+Cette introduction doit permettre de comprendre le document sans avoir besoin de lire un autre fichier. 
+--->
+
+# Analyses
+
+```{r}
+marphy <- read("marphy", package = "pastecs")
+```
+
+
+
+<!--- Consignes
+Proposez un tableau et deux graphiques pour explorer ce nouveau tableau de données. Décrivez votre tableau et vos graphiques en maximum 3 phrases.
+--->
+
+```{r tab}
+
+```
+
+```{r plot1}
+
+```
+
+```{r plot2}
+
+```
+
+<!--- Consignes 
+Proposez entre 4 et 6 dendrogrammes. Vous avez la possibilité de travailler
+- sur la standardisation des données
+- sur le choix de l'indice de distance
+- sur le choix de la méthode de lien employé pour réaliser le dendrogramme 
+- sur les regroupements en coupant l'arbre.
+
+Chaque stratégie employée pour réaliser vos dendrogrammes doit être explicité. La description de votre dendrogramme doit permettre de comprendre les choix que vous avez pris.
+
+Vos descriptions ne doivent pas dépasser 5-7 phrases.
+--->
+
+```{r dendro1}
+
+```
+
+```{r dendro2}
+
+```
+
+```{r dendro3}
+
+```
+
+```{r dendro4}
+
+```
+
+```{r dendro5}
+
+```
+
+```{r dendro6}
+
+```
+
+# Conclusion
+
+<!--- Consignes
+Terminez ce travail par une brève conclusion en répondant à ces deux questions suivantes. 
+
+- Quel est votre meilleur dendrogramme ?
+- Avez vous pu retrouver les 6 zones déterminée dans la page d'aide ? 
+--->
+

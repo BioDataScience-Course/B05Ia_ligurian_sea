@@ -5,23 +5,18 @@ date: ".../.../..."
 output: html_document
 ---
 
-<!--- Consignes
-Ce document doit être cohérent et lisible dans sa version compilée (html). Assurez vous qu'il est compilable.
---->
+<!-- Ce document doit être cohérent et lisible dans sa version compilée (html). Assurez vous qu'il est bien compilable. -->
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 SciViews::R
 library(pastecs)
+source("../R/functions.R") # SciViews functions for CAH
 ```
 
 # Introduction
 
-<!--- Consignes
-Proposez une courte introduction de 4-5 phrases sur le jeu de données marphy du package pastecs.
-
-Cette introduction doit permettre de comprendre le document sans avoir besoin de lire un autre fichier. 
---->
+<!-- Proposez une courte introduction de 4-5 phrases sur le jeu de données marphy du package pastecs. Cette introduction doit permettre de comprendre le document sans avoir besoin de lire un autre fichier. -->
 
 # Analyses
 
@@ -29,10 +24,7 @@ Cette introduction doit permettre de comprendre le document sans avoir besoin de
 marphy <- read("marphy", package = "pastecs")
 ```
 
-
-<!--- Consignes
-Proposez un tableau et deux graphiques pour explorer ce nouveau tableau de données. Décrivez votre tableau et vos graphiques en maximum 3 phrases.
---->
+<!-- Proposez un tableau et deux graphiques pour explorer ce nouveau tableau de données. Décrivez votre tableau et vos graphiques en maximum 3 phrases. -->
 
 ```{r tab}
 
@@ -46,8 +38,7 @@ Proposez un tableau et deux graphiques pour explorer ce nouveau tableau de donn�
 
 ```
 
-<!--- Consignes 
-Proposez entre 4 et 6 dendrogrammes. Vous avez la possibilité de travailler
+<!-- Proposez entre 4 et 6 dendrogrammes. Vous avez la possibilité de travailler
 - sur la standardisation des données
 - sur le choix de l'indice de distance
 - sur le choix de la méthode de lien employée pour réaliser le dendrogramme 
@@ -55,8 +46,7 @@ Proposez entre 4 et 6 dendrogrammes. Vous avez la possibilité de travailler
 
 Chaque stratégie employée pour réaliser vos dendrogrammes doit être explicitée. La description de votre dendrogramme doit permettre de comprendre les choix que vous avez pris.
 
-Vos descriptions ne doivent pas dépasser 5-7 phrases.
---->
+Vos descriptions ne doivent pas dépasser 5-7 phrases. -->
 
 ```{r dendro1}
 
@@ -84,10 +74,7 @@ Vos descriptions ne doivent pas dépasser 5-7 phrases.
 
 # Conclusion
 
-<!--- Consignes
-Terminez ce travail par une brève conclusion en répondant à ces deux questions suivantes. 
+<!-- Terminez ce travail par une brève conclusion en répondant aux deux questions suivantes :
 
 - Quel est votre meilleur dendrogramme ?
-- Avez vous pu retrouver les 6 zones déterminée dans la page d'aide ? 
---->
-
+- Avez vous pu retrouver les 6 zones indiquées dans la page d'aide ? -->

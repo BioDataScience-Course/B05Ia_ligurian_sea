@@ -14,19 +14,17 @@ Cette assignation individuelle vous permettra de nous démontrer que vous avez a
 
 ## Consignes
 
-Complétez le carnet de notes `marphy_notes.Rmd`. Votre objectif est réaliser plusieurs dendrogrammes cohérents sur le jeu de données `marphy`. Ce projet est court est cadré. Vous devez le terminer à la fin de ce module 5.  
+Complétez le document `marphy.Rmd`. Votre objectif est de réaliser plusieurs dendrogrammes cohérents sur le jeu de données `marphy`. Ce projet est court est cadré. Vous devez le terminer à la fin de ce module 5.
 
 ## Quelques informations supplémentaires
 
 Des chercheurs ont réalisé un transect entre Nice et Calvi. Ils ont échantillonné 68 stations entre ces deux villes afin de prélever des échantillons d'organismes planctoniques et de mesurer les paramètres physico-chimiques de ces stations.
 
-Vous pouvez donc retrouver dans le package {pastecs} le jeu de données `marphy` et `marbio`. Rappelez vous que l'aide est toujours disponible.
+Vous pouvez donc retrouver dans le package {pastecs} le jeu de données `marphy` (ainsi que `marbio` qui lui est associé). Pour plus d'information, faites :
 
 ```
 library(pastecs)
 ?marphy
 ```
 
-Cette page d'aide comprend de nombreuses informations qui peuvent vous aider. Vous avez des détails, des sources et des références sur le jeu de données. 
-
-
+La page d'aide comprend de nombreuses informations qui peuvent vous aider. Vous avez des détails, des sources et des références sur le jeu de données.

@@ -1,11 +1,11 @@
 ---
-title: "..."
-author: "..."
-date: ".../.../..."
+title: "___"
+author: "___"
+date: "___"
 output: html_document
 ---
 
-<!-- Ce document doit être cohérent et lisible dans sa version compilée (html). Assurez vous qu'il est bien compilable. -->
+<!--% Ce document doit être cohérent et lisible dans sa version compilée (html). Assurez vous qu'il est bien compilable sans erreurs à la fin (bouton Knit). -->
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -16,7 +16,7 @@ source("../R/functions.R") # SciViews functions for CAH
 
 # Introduction
 
-<!-- Proposez une courte introduction de 4-5 phrases sur le jeu de données marphy du package pastecs. Cette introduction doit permettre de comprendre le document sans avoir besoin de lire un autre fichier. -->
+<!--% Proposez une courte introduction de 4-5 phrases sur le jeu de données marphy du package pastecs. Cette introduction doit permettre de comprendre le document sans avoir besoin de lire autre chose. -->
 
 # Analyses
 
@@ -24,7 +24,7 @@ source("../R/functions.R") # SciViews functions for CAH
 marphy <- read("marphy", package = "pastecs")
 ```
 
-<!-- Proposez un tableau et deux graphiques pour explorer ce nouveau tableau de données. Décrivez votre tableau et vos graphiques en maximum 3 phrases. -->
+<!--% Proposez un tableau et deux graphiques pour explorer ce jeu de données. Décrivez votre tableau et vos graphiques en maximum 3 phrases. -->
 
 ```{r tab}
 
@@ -38,15 +38,10 @@ marphy <- read("marphy", package = "pastecs")
 
 ```
 
-<!-- Proposez entre 4 et 6 dendrogrammes. Vous avez la possibilité de travailler
-- sur la standardisation des données
-- sur le choix de l'indice de distance
-- sur le choix de la méthode de lien employée pour réaliser le dendrogramme 
-- sur les regroupements en coupant l'arbre à la hauteur souhaitée.
+<!--% Proposez entre 4 et 6 dendrogrammes. Jouez sur la standardisation des données, l'indice de dissimilarité, la méthode de lien et le niveau de coupure du dendrogramme. -->
 
-Chaque stratégie employée pour réaliser vos dendrogrammes doit être explicitée. La description de votre dendrogramme doit permettre de comprendre les choix que vous avez pris.
-
-Vos descriptions ne doivent pas dépasser 5-7 phrases. -->
+<!--# Chaque stratégie employée pour réaliser vos dendrogrammes doit être explicitée. La description de votre dendrogramme doit permettre de comprendre les choix que vous avez faits. -->
+<!--# Vos explications ne doivent pas dépasser 5-6 phrases. -->
 
 ```{r dendro1}
 
@@ -74,7 +69,4 @@ Vos descriptions ne doivent pas dépasser 5-7 phrases. -->
 
 # Conclusion
 
-<!-- Terminez ce travail par une brève conclusion en répondant aux deux questions suivantes :
-
-- Quel est votre meilleur dendrogramme ?
-- Avez vous pu retrouver les 6 zones indiquées dans la page d'aide ? -->
+<!--% Terminez ce travail par une brève conclusion en répondant aux deux questions suivantes : (1) Quel est votre meilleur dendrogramme ? (2) Avez-vous pu retrouver les 6 zones indiquées dans la page d'aide ? -->

@@ -45,8 +45,8 @@ vignettes/*.pdf
 README.html
 
 # All pdf , html and docx files in docs
-
 /docs/**.pdf
 /docs/**.html
 /docs/**.doc
 /docs/**.docx
+/docs/marphy_files/
